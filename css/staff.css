@@ -1,0 +1,112 @@
+p{
+  text-align: justify;
+}
+
+.content-staff{
+  margin-top: 150px;
+
+}
+.grid-container{
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: #E1E1E1;
+  gap: 50px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height:auto;
+  text-align: center;
+
+}
+.pfp-img{
+  height: 350px;
+ border-radius: 10px;
+ margin-bottom: 10px;
+ border: 4px solid #e1e1e1;
+}
+.name{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.job{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.staff{
+  height: auto;
+  width: auto;
+  padding: 10px 10px 10px 10px;
+}
+.title-name{
+  color: #E1E1E1;
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.driti-content{
+  height: auto;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  text-align: left;
+  width: 400px;
+  z-index: 5;
+}
+.photos{
+  text-align: right;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.description{
+  font-weight: 300;
+  color: #bfbbbb;
+  font-size: 20px;
+}
+.dritif{
+  height: 455px;
+  margin-bottom: 15px;
+}
+.dy{
+  transform: translate(-100px, -100px);
+}
+.tre{
+  transform: translateY(-150px);
+}
+.shtate{
+  margin-top: 100px;
+  height: 350px;
+  z-index: 999;
+}
+.superman{
+  height: 125px;
+  width: 230px;
+  transform: translate(-250px, -1300px);
+  z-index: 4;
+}
+.icons{
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  margin-top:auto;
+}
+.bx{
+  margin-top: auto;
+  font-size: 40px;
+  margin-left: 15px;
+  color: black;
+}
+a i{
+  text-decoration: none;
+  color: black;
+}

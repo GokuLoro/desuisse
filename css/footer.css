@@ -1,0 +1,41 @@
+.footer{
+  border-top: 1px solid gray;
+  background-color: rgb(165, 165, 165);
+  z-index: 2000;
+  height: 300px;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-left{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: auto;
+  text-align: justify;
+
+}
+.footer-logo{
+  height: 40px;
+}
+.footerr{
+  z-index: 1001;
+  color: black;
+}
+.footer-p{
+  color: #000000;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.contact{
+  margin-top: 30px;
+
+}
+.adress{
+  margin-left: 20px;
+  margin-top: 30px;
+}

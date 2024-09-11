@@ -1,0 +1,38 @@
+.containerr{
+  display: flex;
+  transition: all 0.3 ease;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content{
+  width: 1fr;
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  min-width: 100vh;
+  
+}
+.desuisse-title{
+  height: 300px;
+  transform: translateY(-25px);
+  opacity: 0.6;
+  position: absolute;
+  top: 50%; /* Adjusts position vertically (change as needed) */
+  left: 50%; /* Adjusts position horizontally (change as needed) */
+  transform: translate(-50%, -50%); /* Centers the logo perfectly */
+  color: white; /* Makes the text/logo white */
+  z-index: 5000;
+}
+.background-image{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+

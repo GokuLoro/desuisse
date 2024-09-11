@@ -1,0 +1,68 @@
+/* Styles for mobile phones (less than 600px wide) */
+
+
+
+@media only screen and (min-width: 10px) and (max-width: 450px) {
+  p{
+    margin-left: 2px;
+    font-size: 15px;
+  }
+  img{
+    height: 1%;
+    transform: translate(0);
+    width: auto;
+  }
+  .dy{
+    transform: translate(0);
+  }
+  .tre{
+    transform: translateY(0);
+  }
+  .header{
+    height: 8%;
+    width: 100%;
+  }
+ .right{
+  width: 25%;
+  height: 8%;
+ }
+ .buttons{
+  height: auto;
+  width: auto;
+  font-size: 14px;
+  flex-wrap: wrap;
+
+ }
+ .left{
+  width: 50%;
+  height: 8%;
+ }
+}
+.description{
+  margin-right: 15px;
+}
+.desuisse-logo{
+  height: 30px;
+}
+.footer{
+  width: 100%;
+}
+.grid-container{
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  color: #E1E1E1;
+}
+
+
+@media only screen and (min-width: 451px) {
+  .grid-container{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #E1E1E1;
+  }
+  .desuisse-logo{
+    height: 60px;
+  }
+}

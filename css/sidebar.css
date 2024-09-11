@@ -1,0 +1,36 @@
+.sidebar {
+  width: 200px;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  left: -200px; /* Initially hidden */
+  transition: all 0.3s ease;
+  top: 100px;
+
+  border-right: 1px solid gray;
+  width: 200px;
+  z-index: 1800;
+  background-color: rgb(71, 69, 69);
+}
+.sidebar-buttons{
+
+  height: 120px;
+  width: 200px;
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+  white-space: nowrap;
+  font-weight: 700;
+  border: none;
+  color: #E1E1E1;;
+  background-color: rgb(71, 69, 69);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.sidebar-buttons:hover{
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(114, 111, 111);
+}
+.sidebar.active {
+  left: 0;
+}
